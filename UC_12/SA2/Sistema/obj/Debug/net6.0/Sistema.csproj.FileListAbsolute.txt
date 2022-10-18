@@ -1,0 +1,15 @@
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\bin\Debug\net6.0\Sistema.exe
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\bin\Debug\net6.0\Sistema.deps.json
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\bin\Debug\net6.0\Sistema.runtimeconfig.json
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\bin\Debug\net6.0\Sistema.dll
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\bin\Debug\net6.0\Sistema.pdb
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\Sistema.csproj.AssemblyReference.cache
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\Sistema.GeneratedMSBuildEditorConfig.editorconfig
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\Sistema.AssemblyInfoInputs.cache
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\Sistema.AssemblyInfo.cs
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\Sistema.csproj.CoreCompileInputs.cache
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\Sistema.dll
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\refint\Sistema.dll
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\Sistema.pdb
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\Sistema.genruntimeconfig.cache
+E:\Downloads\Dev\teste\UC_12\SA2\Sistema\obj\Debug\net6.0\ref\Sistema.dll
