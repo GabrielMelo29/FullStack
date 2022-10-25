@@ -8,9 +8,9 @@ namespace Sistema
     public abstract class Pessoa
     {
         public string nome {get; set;}
-        public string endereco { get; set; }
-        public bool endComercial { get; set; }
+        public Endereco endereco { get; set;}
 
-        public void pagarImposto() {}
+
+        public abstract void pagarImposto(float rendimento);
     }
 }
