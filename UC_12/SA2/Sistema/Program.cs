@@ -1,33 +1,55 @@
 ﻿
-namespace Sistema {
-    class program {
+namespace Sistema
+{
+    class program
+    {
         static void Main(string[] args)
         {
-            Endereco end = new Endereco();
-            end.logradouro = "Rua x";
-            end.numero = 100;
-            end.complemento = "D";
-            end.endComercial = false;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
-            PessoaFisica pf = new PessoaFisica();
-            pf.endereco = end;
-            pf.nome = "Gabriel";
-            pf.CPF = "245647453";
-            pf.dtNascimento = new DateTime(1999, 10, 29);
-
-
-            Console.WriteLine($"Rua: {pf.endereco.logradouro},{pf.endereco.numero}");
-        
-            Console.WriteLine(pf.validarDataNascimento(pf.dtNascimento));
-
-            bool idadeValida = pf.validarDataNascimento(pf.dtNascimento);
-
-            if (idadeValida == true) {
-                System.Console.WriteLine("Cadastro Aprovado");
-            } else {
-                Console.WriteLine("Cadastro Reprovado");
+            Console.Write("Iniciando ");
+            Thread.Sleep(600);
+            for (var contador = 0; contador < 7; contador++)
+            {
+                Console.Write(">");
+                Thread.Sleep(600);
             }
+            Console.Clear();
+
+
+            string? opcao;
+            do
+            {
+                Console.WriteLine(@$"
+            ========================================
+            |       Escolha uma das opções         |
+            ----------------------------------------
+            |                                      |
+            |         1 - Pessoa Física            |
+            |         2 - Pessoa Jurídica          |
+            |                                      |
+            |         0 - Sair                     |
+            |                                      |
+            ----------------------------------------
+            ");
+
+                opcao = Console.ReadLine();
+                switch (opcao)
+                {
+                    case "1":
+                        break;
+                    case "2":
+                        break;
+                    case "0":
+                        break;
+                    default:
+                        Console.WriteLine("Opção inválida, escolha uma das opções");
+                        break;
+                }
+            } while (opcao != "0");
+
+            Console.ResetColor();
         }
-    } 
+    }
 }
 
