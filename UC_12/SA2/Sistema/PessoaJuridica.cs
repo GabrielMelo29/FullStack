@@ -9,12 +9,31 @@ namespace Sistema
     {
         public string CNPJ { get; set; }
         public string razaoSocial { get; set; }
-        
-        public override void pagarImposto(float rendimento) {}
-        public bool validarCNPJ(string CNPJ) {
-            if(CNPJ.Length >= 14 && (CNPJ.Substring(CNPJ.Length - 4)) == "0001") {
+
+        public override float pagarImposto(float rendimento)
+        {
+            if (rendimento <= 5000)
+            {
+                return rendimento * 6 / 100;
+            }
+            else if (rendimento > 5000 && rendimento <= 10000)
+            {
+                return rendimento * 8 / 100;
+            }
+            else
+            {
+                return rendimento * 10 / 100;
+            }
+        }
+
+        public bool validarCNPJ(string CNPJ)
+        {
+            if (CNPJ.Length >= 14 && (CNPJ.Substring(CNPJ.Length - 4)) == "0001")
+            {
                 return true;
-            } else {
+            }
+            else
+            {
                 return false;
             }
         }
